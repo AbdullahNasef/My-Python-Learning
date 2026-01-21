@@ -1,11 +1,7 @@
-nested_list = [
-    ["Hello", "from", "Codezilla"],
+nested_list = [["Hello", "from", "Codezilla"],
 ["Python", "Course", "is", "awesome"],
-["I", "enjoy", "learning", "Python", "with", "Codezilla"]
-]
-words = []
+["I", "enjoy", "learning", "Python", "with", "Codezilla"]]
+flat_lst = []
 for lst in nested_list:
-    for word in lst:
-        words.append(word)
-
-print(words)
+    flat_lst.extend(lst)
+print(flat_lst)
