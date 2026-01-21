@@ -1,6 +1,0 @@
-    print("-" * 15)
-    print(f"Product: {product_name}")
-    print(f"Quantity: {quantity}")
-    print(f"Price: {price}")
-    print("-" * 15)
-    print(f"Total cost: {total_product_cost}")
